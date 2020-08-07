@@ -36,7 +36,7 @@ public class Friend {
 
 	@Override
 	public String toString() {
-		return "Friend [name=" + name + ", relation=" + relation + ", phone=" + phone + "]";
+		return "이름 : "+getName() + ", 전화번호 : " + getPhone() + ", 관계 : " + getRelation();
 	}
 	
 }
