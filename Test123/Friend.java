@@ -36,7 +36,7 @@ public class Friend {
 
 	@Override
 	public String toString() {
-		return "ÀÌ¸§ : "+getName() + ", ÀüÈ­¹øÈ£ : " + getPhone() + ", °ü°è : " + getRelation();
+		return "ì´ë¦„ : "+getName() + ", ì „í™”ë²ˆí˜¸ : " + getPhone() + ", ê´€ê³„ : " + getRelation();
 	}
 	
 }
