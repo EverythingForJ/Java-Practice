@@ -17,9 +17,11 @@ public class Input {
 		
 		int count=0;
 		
+		System.out.println("\t\t\t\t\t\t\t\t<<ì£¼ì†Œë¡ ê´€ë¦¬ í”„ë¡œê·¸ë¨>>\t\t\t\t\t\t\t\t");
+		
 		do {
-			
-			System.out.print("1. Ãß°¡, 2. °Ë»ö, 3. ¸ñ·Ï º¸±â 4. Á¾·á : ");
+			System.out.print("1. ì¶”ê°€  2. ê²€ìƒ‰  3. ëª©ë¡ ë³´ê¸°  4. ì¢…ë£Œ \n");
+			System.out.println("ì„ íƒ : ");
 			int no = scan.nextInt();
 
 			switch(no) {
@@ -30,5 +32,6 @@ public class Input {
 			}
 			
 		} while( count<=10);
+		
 	}	
 }
