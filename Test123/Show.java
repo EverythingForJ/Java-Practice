@@ -15,9 +15,8 @@ public class Show {
 	}
 	
 	public void show(Friend[] array, int count) {
-		System.out.println("===================================");
+		System.out.println("\t\t\t\t<<ì£¼ì†Œë¡>>\t\t\t\t");
 		for(int i=0; i<count; i++) {
-			System.out.println((i+1)+"¹øÂ° ÁÖ¼Ò·Ï");
 			System.out.println(array[i]);
 		}
 		System.out.println("===================================");
