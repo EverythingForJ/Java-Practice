@@ -13,19 +13,19 @@ public class Input {
 	public void input() {
 		Add add = new Add(array);
 		Search search = new Search(array);
-		Show show = new Show(array);
+		Show show = new Show();
 		
-		static int count=0;
+		int count=0;
 		
 		do {
-			count++;
-			System.out.print("1. Ãß°¡, 2. °Ë»ö, 3. ¸ñ·Ï º¸±â 4. Á¾·á : ");
+			
+			System.out.print("1. ì¶”ê°€, 2. ê²€ìƒ‰, 3. ëª©ë¡ ë³´ê¸° 4. ì¢…ë£Œ : ");
 			int no = scan.nextInt();
 
 			switch(no) {
-			case 1 : add.add(array); break;
+			case 1 : count++; add.add(array); break;
 			case 2 :	search.search(array); break;
-			case 3 : show.show(array); break;
+			case 3 : show.show(array, count); break;
 			default : System.exit(-1);
 			}
 			
